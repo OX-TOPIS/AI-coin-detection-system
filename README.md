@@ -1,7 +1,7 @@
 # AI coin detection system
 ## header
 ### subheader
-| Student ID  | Name-Surname | github      | Role |
+| Student ID  | Name-Surname | github      |
 | ----------- | ----------- | ----------- | ----------- |
-| Header      | Title       | Header      | Title       |
-| Paragraph   | Text        | Paragraph   | Text        |
+| 64070255   | อัญทิชา ประภาศรีกวิน       | https://github.com/OX-TOPIS     |
+| 64070229   | Text        | Paragraph   |
