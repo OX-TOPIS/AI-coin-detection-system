@@ -53,8 +53,8 @@ def coin1():
 
 def CoinDetection():
     """CoinDetection"""
-    cap = cv2.imread(image())
-    while (cap.imread()):
+    cap = cv2.imread("Image\Total_Coin\TotalCoin (1).jpg")
+    while cap.read():
         ref, frame = cap.read()
         ref = ref
         roi = frame[:1080, 0:1920]

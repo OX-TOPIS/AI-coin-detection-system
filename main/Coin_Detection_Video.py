@@ -4,13 +4,13 @@ import numpy as np
 
 def maininput():
     """Videocap"""
-    cap = cv2.VideoCapture("C:\Project PSIT\Video\Coin_1\Coin_1.mp4")
+    cap = cv2.VideoCapture("Video\Total_Coin\Total_Cion (2).mp4")
     return cap
 
 def coin10():
     """Detection Coin10"""
     cap = maininput()
-    face_cascade = cv2.CascadeClassifier("C:\Project PSIT\cascade\cascade_Coin_1.xml")
+    face_cascade = cv2.CascadeClassifier("cascade\Casecade_Coin10.xml")
     counter_coin10 = 0
     while cap.isOpened():
         check, frame = cap.read()
@@ -29,7 +29,7 @@ def coin10():
 def coin5():
     """Detection Coin5"""
     cap = maininput()
-    face_cascade = cv2.CascadeClassifier("C:\Project PSIT\cascade\cascade_Coin_1.xml")
+    face_cascade = cv2.CascadeClassifier("cascade\Casecade_Coin5.xml")
     counter_coin5 = 0
     while cap.isOpened():
         check, frame = cap.read()
@@ -48,7 +48,7 @@ def coin5():
 def coin1():
     """Detection Coin1"""
     cap = maininput()
-    face_cascade = cv2.CascadeClassifier("C:\Project PSIT\cascade\cascade_Coin_1.xml")
+    face_cascade = cv2.CascadeClassifier("cascade\Casecade_Coin1.xml")
     counter_coin1 = 0
     while cap.isOpened():
         check, frame = cap.read()
@@ -67,7 +67,7 @@ def coin1():
 def CoinDetection():
     """CoinDetection"""
     cap = maininput()
-    while(cap.read()):
+    while (cap.read()):
         ref, frame = cap.read()
         ref = ref
         roi = frame[:1080, 0:1920]
@@ -93,7 +93,7 @@ def CoinDetection():
             counter += 1
         E1 = cv2.FONT_HERSHEY_SIMPLEX
         E2 = cv2.LINE_AA
-        cv2.putText(roi, str(coin1() + (coin5()*5) + (coin10()*10)), (10, 100), E1, 4, (255, 0, 0), 2, E2)
+        cv2.putText(roi, str(coin1()) + (coin5()*5) + (coin10()*10), (10, 100), E1, 4, (255, 0, 0), 2, E2)
         cv2.imshow("Show", roi)
         if cv2.waitKey(1) & 0xFF==ord('q'):
             break

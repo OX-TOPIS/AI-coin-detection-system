@@ -10,7 +10,7 @@ def maininput():
 def coin10():
     """Detection Coin10"""
     cap = maininput()
-    face_cascade = cv2.CascadeClassifier("C:\Project PSIT\cascade\cascade_Coin_1.xml")#///\\\
+    face_cascade = cv2.CascadeClassifier("cascade\Casecade_Coin10.xml")
     counter_coin10 = 0
     while cap.isOpened():
         check, frame = cap.read()
@@ -29,7 +29,7 @@ def coin10():
 def coin5():
     """Detection Coin5"""
     cap = maininput()
-    face_cascade = cv2.CascadeClassifier("C:\Project PSIT\cascade\cascade_Coin_1.xml")#///\\\
+    face_cascade = cv2.CascadeClassifier("cascade\Casecade_Coin5.xml")
     counter_coin5 = 0
     while cap.isOpened():
         check, frame = cap.read()
@@ -48,7 +48,7 @@ def coin5():
 def coin1():
     """Detection Coin1"""
     cap = maininput()
-    face_cascade = cv2.CascadeClassifier("C:\Project PSIT\cascade\cascade_Coin_1.xml")
+    face_cascade = cv2.CascadeClassifier("cascade\Casecade_Coin1.xml")
     counter_coin1 = 0
     while cap.isOpened():
         check, frame = cap.read()
