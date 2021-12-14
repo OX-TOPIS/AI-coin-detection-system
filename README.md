@@ -4,6 +4,10 @@
 ### 1. Train AI by adding more positive and negative images to make AI more accurate.
 ### 2. Make AI work faster.
 ### 3. Add an xml file for detecting 2 baht coins.
+## Limitations of AI
+#### 1. The 10 baht coin and the 5 baht coin must be placed on the head side only. The 1 baht coin must be placed on the tail side only because the 5 baht coin and 1 baht coin have similar appearance and color.
+#### 2. Each coin should be placed at least about 3 centimeters apart, because if they are placed close to each other, the detection accuracy will be less, as shown in Figure 8.
+####
 ## Developer
 | Student ID  | Name-Surname | github      |
 | ----------- | ----------- | ----------- |
