@@ -5,3 +5,6 @@
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
