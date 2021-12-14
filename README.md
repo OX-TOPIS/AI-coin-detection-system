@@ -1,7 +1,7 @@
 # AI coin detection system
 ## header
 ### subheader
-| Syntax      | Description | Syntax      | Description |
+| Student ID  | Name-Surname | github      | Role |
 | ----------- | ----------- | ----------- | ----------- |
 | Header      | Title       | Header      | Title       |
 | Paragraph   | Text        | Paragraph   | Text        |
