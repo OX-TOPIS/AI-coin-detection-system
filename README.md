@@ -13,5 +13,5 @@
 | ----------- | ----------- | ----------- |
 | 64070008   | Kultida Jumpa        |[Kultida](https://github.com/winniemooz)
 | 64070196   | Pornpilin Wongsritrang      | [Pornpilin](https://github.com/PornpilinWongsritrang64070196)   |
-| 64070229   | Waranya Kanthama        | [Waranya](https://github.com/anthicha)   |
-| 64070255   | Anthicha Prapasrikavin     | [Anthicha](https://github.com/OX-TOPIS) |
+| 64070229   | Waranya Kanthama        | [Waranya](https://github.com/OX-TOPIS)   |
+| 64070255   | Anthicha Prapasrikavin     | [Anthicha](https://github.com/anthicha) |
